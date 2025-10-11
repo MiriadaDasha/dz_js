@@ -6,10 +6,10 @@
 
 // your code
 const max_num = 20
-let sum = 0
+let sum = 1
 num = 1
 
-while (num <= 20) {
+while (num <= max_num) {
   if (num % 2 ===0) {
     sum += num
   }

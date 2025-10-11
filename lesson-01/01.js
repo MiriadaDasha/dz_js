@@ -3,7 +3,7 @@
 
 // your code
 const max_num = 20
-let sum = 0 //сумма чисел
+let sum = 1 //сумма чисел
 let num = 1 //число
 while (num <= max_num) {
     sum += num
