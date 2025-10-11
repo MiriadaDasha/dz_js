@@ -2,12 +2,11 @@
 // Результат присвойте переменной sum
 
 // your code
-const max_num = 20
-let sum = 1 //сумма чисел
-let num = 2 //число
+const max_num = 20;
+let sum = 1; //сумма чисел
+let num = 2; //число
 while (num <= max_num) {
-    sum += num
-    num += 1
-    console.log(sum);
+    sum += num;
+    num += 1;
 }
-
+console.log(sum);

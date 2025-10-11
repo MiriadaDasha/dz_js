@@ -6,13 +6,13 @@
 */
 
 // your code
-const max_n = 10
-let factorial = 1
-let n! = 1
+const max_n = 10;
+let factorial = 1;
+let n = 1;
 
 while (n <= max_n) {
-  factorial *= n
-  n += 1
+  factorial *= n;
+  n += 1;
 }
 console.log(factorial);
 
