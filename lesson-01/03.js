@@ -7,7 +7,7 @@
 // your code
 const max_num = 20
 let sum = 1
-num = 1
+let num = 1
 
 while (num <= max_num) {
   if (num % 2 ===0) {
