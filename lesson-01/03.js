@@ -7,10 +7,10 @@
 // your code
 const max_num = 20;
 let sum = 1;
-let num = 1;
+let num = 3;
 
 while (num <= max_num) {
-  if (num % 2 ===0) {
+  if (num % 2 === 1) {
     sum += num;
   }
   num += 1;
