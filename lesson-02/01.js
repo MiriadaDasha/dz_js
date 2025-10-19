@@ -16,7 +16,6 @@ const hasTemporaryPass = true
 let isAccess
 
 // your code
-let user 
 if((isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass) === true)  {
     isAccess = true
     console.log("Доступ разрешен")
