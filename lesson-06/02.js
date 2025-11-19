@@ -40,3 +40,5 @@ const doubledNumbers = map(numbers, (element, index) => {
 })
 
 console.log(doubledNumbers)
+
+
