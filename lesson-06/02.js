@@ -30,8 +30,7 @@ const map = (array,callback) => {
       result.push(callback(array[i],i))
   }
   return result
-}
-console.log(doubledNumbers);
+};
 
 const numbers = [1, 2, 3, 4, 5]
 
