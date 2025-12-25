@@ -31,7 +31,7 @@ const buttonPrev = document.getElementById ("prev-button")
 buttonPrev.addEventListener("click", function () {
     image.setAttribute("src", WEB_TECH_IMAGES[currentIndex])
     currentIndex -= 1
-    if (currentIndex <= 0){
+    if (currentIndex < 0){
     currentIndex = WEB_TECH_IMAGES.length - 1
   }
 })
