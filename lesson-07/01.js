@@ -21,17 +21,17 @@ let currentIndex = 1
 const buttonNext = document.getElementById ("next-button")
 const image = document.getElementById ("web-tech-image")
 buttonNext.addEventListener("click", function(){
-  image.setAttribute("src", WEB_TECH_IMAGES[currentIndex])
   currentIndex += 1
   if (currentIndex >= WEB_TECH_IMAGES.length){
     currentIndex = 0
   }
+  image.setAttribute("src", WEB_TECH_IMAGES[currentIndex])
 })
 const buttonPrev = document.getElementById ("prev-button")
 buttonPrev.addEventListener("click", function () {
-    image.setAttribute("src", WEB_TECH_IMAGES[currentIndex])
     currentIndex -= 1
     if (currentIndex < 0){
     currentIndex = WEB_TECH_IMAGES.length - 1
   }
+  image.setAttribute("src", WEB_TECH_IMAGES[currentIndex])
 })
