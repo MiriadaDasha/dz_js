@@ -28,7 +28,7 @@
 const filter = (array,callback)  => {
   let result =[]
   for(let i = 0; i < array.length; i++) {
-      if(callback(array[i],i)) {
+      if(callback(array[i])) {
         result.push(array[i])
       }
   }
@@ -37,7 +37,7 @@ const filter = (array,callback)  => {
 
 const numbers = [1, 2, 3, 4, 5]
 
-const oddNumbers = filter(numbers, (element, index) => {
+const oddNumbers = filter(numbers, (element) => {
   return element % 2 !== 0
 });
 
